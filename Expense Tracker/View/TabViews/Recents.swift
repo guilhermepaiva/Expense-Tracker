@@ -57,6 +57,8 @@ struct Recents: View {
                     .padding(15)
                 }
                 .background(.gray.opacity(0.15))
+                .blur(radius: showFilterView ? 8 : 0)
+                .disabled(showFilterView)
             }
             .overlay {
                 ZStack {
