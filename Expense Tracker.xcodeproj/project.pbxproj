@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3436932BF4DC8400999C0E /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3436922BF4DC8400999C0E /* DateFilterView.swift */; };
 		CD4242DF2BEFF70E00C2C65D /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4242DE2BEFF70E00C2C65D /* Expense_TrackerApp.swift */; };
 		CD4242E12BEFF70E00C2C65D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4242E02BEFF70E00C2C65D /* ContentView.swift */; };
 		CD4242E32BEFF70E00C2C65D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4242E22BEFF70E00C2C65D /* Item.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD3436922BF4DC8400999C0E /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 		CD4242DB2BEFF70E00C2C65D /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4242DE2BEFF70E00C2C65D /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
 		CD4242E02BEFF70E00C2C65D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				CD42430F2BF2A9AE00C2C65D /* CardView.swift */,
 				CD4243112BF3875300C2C65D /* TransactionCardView.swift */,
+				CD3436922BF4DC8400999C0E /* DateFilterView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				CD4243072BF254EB00C2C65D /* Graphs.swift in Sources */,
 				CD4243032BF254CF00C2C65D /* Search.swift in Sources */,
+				CD3436932BF4DC8400999C0E /* DateFilterView.swift in Sources */,
 				CD4243092BF254F800C2C65D /* Settings.swift in Sources */,
 				CD4242F42BF0000100C2C65D /* Constants.swift in Sources */,
 				CD4242F12BEFFDDF00C2C65D /* IntroScreen.swift in Sources */,
